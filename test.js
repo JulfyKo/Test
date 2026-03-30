@@ -1,5 +1,5 @@
-const Shop = require('./classes');
-const { product, capitalizeFirstLetter } = require('./product');
+const Shop = require('./class/classes');
+const { product, capitalizeFirstLetter } = require('./class/product');
 
 describe('capitalizeFirstLetter', () => {
   test('capitalizes string', () => {
